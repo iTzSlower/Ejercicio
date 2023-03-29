@@ -4,15 +4,11 @@ using System.Text;
 
 namespace Tarea
 {
-    class Renato_Weapon
+    abstract public class Renato_Weapon
     {
-        int damage;
+        public abstract void Mostrar();
+        public abstract string OnlyName();
 
-        int price;
-
-        int speed;
-
-        string nombre;
+        public abstract float OnlyBuy();
     }
-
 }

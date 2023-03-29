@@ -4,14 +4,8 @@ using System.Text;
 
 namespace Tarea
 {
-    class Renato_Melee : Renato_Weapon
+    abstract public class Renato_Melee : Renato_Weapon
     {
-        float handling;
-
-        
+        public abstract float DPS();
     }
-
-
-
-
 }

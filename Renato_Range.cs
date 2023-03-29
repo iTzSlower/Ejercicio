@@ -4,11 +4,9 @@ using System.Text;
 
 namespace Tarea
 {
-    class Renato_Range : Renato_Weapon
+    abstract class Renato_Range : Renato_Weapon
     {
-        float distance;
-
-
-
+        public abstract float DPS();
+        public abstract float TotalDamage();
     }
 }
