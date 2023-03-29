@@ -6,19 +6,36 @@ namespace Tarea
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bienvenido a la tienda");
-
-
-            string a = Console.ReadLine();
+            Inicio();
         }
 
-
-    }
-    class Weapon
-    {
-        void WeaponDamage(int a)
+        static void Inicio()
         {
-            return a = 0;
+            Console.WriteLine("Bienvenido a la tienda");
+            Console.WriteLine(" ");
+            Console.WriteLine("1.- ¿Que es lo que vende?");
+            Console.WriteLine("2.- No deseo nada (salir)");
+            Respuesta();
         }
+        static void Respuesta()
+        {
+            string a = Console.ReadLine();
+            if (a == "1")
+            {
+
+            }
+            else if (a == "2")
+            {
+
+            }
+            else
+            {
+                Console.WriteLine(" ");
+                Console.WriteLine("---Caracter invalido---");
+                Console.WriteLine(" ");
+                Inicio();
+            }
+        }
+
     }
 }
